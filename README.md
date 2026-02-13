@@ -16,11 +16,11 @@
 
 - **Personal Portfolio**
   Showcase keahlian dan perjalanan belajar saya.
-  [🔗 Lihat Website](vitoIT.my.id)
+  [🔗 Lihat Website](https://vitoIT.my.id)
 
 - **Website Store Simpel**
   Toko online minimalis yang dibangun dengan HTML, JavaScript, dan framework Tailwind CSS.
-  [🔗 Lihat Website](astacloud1.my.id)
+  [🔗 Lihat Website](https://astacloud1.my.id)
 
 ---
 
