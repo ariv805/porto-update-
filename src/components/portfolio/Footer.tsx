@@ -102,7 +102,7 @@ export default function Footer() {
           className="text-center"
         >
           <p className="text-[#627d98] text-sm flex items-center justify-center gap-1">
-            © 2024 Muhammad Arivito. Made with{" "}
+            © 2026 Muhammad Arivito. Made with{" "}
             <Heart className="h-4 w-4 text-red-500 fill-red-500" /> using Next.js
           </p>
           <p className="text-[#627d98] text-xs mt-2">
