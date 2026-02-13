@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { 
-  Github, 
+import {  
   Instagram, 
   Mail, 
   Music2,
@@ -13,11 +12,6 @@ import {
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
-  { 
-    icon: Github, 
-    label: "GitHub", 
-    href: "https://github.com/ariv805"  // ← Ganti dengan username GitHub Anda
-  },
   { 
     icon: Instagram, 
     label: "Instagram", 
