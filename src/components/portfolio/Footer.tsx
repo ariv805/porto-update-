@@ -12,9 +12,21 @@ import {
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
-  { icon: Github, label: "GitHub", href: "#" },
-  { icon: Instagram, label: "Instagram", href: "#" },
-  { icon: Mail, label: "Email", href: "mailto.arivito.id@gmail.com" },
+  { 
+    icon: Github, 
+    label: "GitHub", 
+    href: "https://github.com/username-anda"  // ← Ganti dengan username GitHub Anda
+  },
+  { 
+    icon: Instagram, 
+    label: "Instagram", 
+    href: "https://instagram.com/username-anda"  // ← Ganti dengan username Instagram Anda
+  },
+  { 
+    icon: Mail, 
+    label: "Email", 
+    href: "mailto:email-anda@gmail.com"  // ← Ganti dengan email Anda
+  },
 ];
 
 export default function Footer() {
