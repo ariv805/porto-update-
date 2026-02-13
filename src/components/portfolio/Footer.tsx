@@ -15,7 +15,7 @@ const socialLinks = [
   { 
     icon: Github, 
     label: "GitHub", 
-    href: "https://github.com/username-anda"  // ← Ganti dengan username GitHub Anda
+    href: "https://github.com/ariv805"  // ← Ganti dengan username GitHub Anda
   },
   { 
     icon: Instagram, 
@@ -25,7 +25,7 @@ const socialLinks = [
   { 
     icon: Mail, 
     label: "Email", 
-    href: "mailto:email-anda@gmail.com"  // ← Ganti dengan email Anda
+    href: "mailto:arivito.id@gmail.com"  // ← Ganti dengan email Anda
   },
 ];
 
