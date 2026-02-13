@@ -25,18 +25,18 @@ interface Skill {
 
 const networkSkills: Skill[] = [
   { name: "Crimping Kabel", icon: Cable, level: 80, color: "bg-blue-500" },
-  { name: "Setting IP", icon: Settings, level: 75, color: "bg-green-500" },
-  { name: "Topologi LAN", icon: Network, level: 70, color: "bg-purple-500" },
-  { name: "Packet Tracer", icon: Server, level: 65, color: "bg-orange-500" },
+  { name: "Setting IP", icon: Settings, level: 80, color: "bg-green-500" },
+  { name: "Topologi LAN", icon: Network, level: 85, color: "bg-purple-500" },
+  { name: "Packet Tracer", icon: Server, level: 88, color: "bg-orange-500" },
 ];
 
 const webSkills: Skill[] = [
-  { name: "HTML & CSS", icon: Globe, level: 85, color: "bg-cyan-500" },
-  { name: "JavaScript Dasar", icon: FileCode, level: 60, color: "bg-yellow-500" },
-  { name: "Next.js Dasar", icon: Code, level: 55, color: "bg-blue-500" },
-  { name: "PHP Dasar", icon: FileCode, level: 50, color: "bg-purple-500" },
-  { name: "MySQL Dasar", icon: Database, level: 45, color: "bg-orange-500" },
-  { name: "Git & GitHub", icon: GitBranch, level: 60, color: "bg-red-500" },
+  { name: "HTML & CSS", icon: Globe, level: 50, color: "bg-cyan-500" },
+  { name: "JavaScript Dasar", icon: FileCode, level: 20, color: "bg-yellow-500" },
+  { name: "Next.js Dasar", icon: Code, level: 15, color: "bg-blue-500" },
+  { name: "PHP Dasar", icon: FileCode, level: 5, color: "bg-purple-500" },
+  { name: "MySQL Dasar", icon: Database, level: 5, color: "bg-orange-500" },
+  { name: "Git & GitHub", icon: GitBranch, level: 15, color: "bg-red-500" },
 ];
 
 const SkillCard = ({ skill, index }: { skill: Skill; index: number }) => {
