@@ -20,7 +20,7 @@ const socialLinks = [
   { 
     icon: Instagram, 
     label: "Instagram", 
-    href: "https://instagram.com/username-anda"  // ← Ganti dengan username Instagram Anda
+    href: "https://www.instagram.com/vitzz77_?igsh=MW8ycG52cXo5cDUxMg=="  // ← Ganti dengan username Instagram Anda
   },
   { 
     icon: Mail, 
