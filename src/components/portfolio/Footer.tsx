@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/button";
 const socialLinks = [
   { icon: Github, label: "GitHub", href: "#" },
   { icon: Instagram, label: "Instagram", href: "#" },
-  { icon: Mail, label: "Email", href: "#" },
+  { icon: Mail, label: "Email", href: "arivito.id@gmail.com" },
 ];
 
 export default function Footer() {
