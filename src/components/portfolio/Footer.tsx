@@ -6,7 +6,7 @@ import {
   Github, 
   Instagram, 
   Mail, 
-  music2,
+  Music2,
   Heart,
   ArrowUp
 } from "lucide-react";
