@@ -59,14 +59,16 @@ export default function Footer() {
             {socialLinks.map((social) => {
               const Icon = social.icon;
               return (
-                <Button
+                <a
                   key={social.label}
-                  variant="ghost"
-                  size="icon"
-                  className="rounded-full bg-[#102a43] border border-[#334e68] text-[#9fb3c8] hover:text-white hover:bg-[#1e3a5f] hover:border-blue-500/50 transition-all duration-300"
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[#102a43] border border-[#334e68] text-[#9fb3c8] hover:text-white hover:bg-[#1e3a5f] hover:border-blue-500/50 transition-all duration-300"
+                  title={social.label}
                 >
                   <Icon className="h-5 w-5" />
-                </Button>
+                </a>
               );
             })}
           </motion.div>
