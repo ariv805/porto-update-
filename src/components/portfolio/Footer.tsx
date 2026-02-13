@@ -6,6 +6,7 @@ import {
   Github, 
   Instagram, 
   Mail, 
+  music2,
   Heart,
   ArrowUp
 } from "lucide-react";
@@ -21,6 +22,11 @@ const socialLinks = [
     icon: Instagram, 
     label: "Instagram", 
     href: "https://www.instagram.com/vitzz77_?igsh=MW8ycG52cXo5cDUxMg=="  // ← Ganti dengan username Instagram Anda
+  },
+  { 
+    icon: Music2, 
+    label: "TikTok", 
+    href: "https://www.tiktok.com/@vittz567?_r=1&_t=ZS-93tJNJu4NpQ"  // ← Ganti dengan username TikTok Anda
   },
   { 
     icon: Mail, 
