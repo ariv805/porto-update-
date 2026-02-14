@@ -34,8 +34,8 @@ interface Project {
 
 const webProjects: Project[] = [
   {
-    title: "Portfolio Website",
-    description: "Website portfolio personal yang dibangun dengan Next.js, Tailwind CSS, dan Framer Motion untuk menampilkan profil dan proyek.",
+    title: "Marketplace Website",
+    description: "Website marketplace untuk tugas menjual produk digital dan komponen komputer",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     features: [
       { text: "Responsive Design" },
@@ -45,37 +45,9 @@ const webProjects: Project[] = [
     ],
     // Ganti dengan URL gambar Anda, contoh:
     // image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
-    image: "",
+    image: "https://image2url.com/r2/default/images/1771052298302-65063b0e-15b1-404a-9ae1-9570ae8c9043.jpg",
     github: "https://github.com/",
-    demo: "#",
-    type: "web",
-  },
-  {
-    title: "Sistem Informasi Sederhana",
-    description: "Aplikasi web untuk manajemen data sederhana dengan PHP dan MySQL. Dilengkapi dengan CRUD operations.",
-    technologies: ["PHP", "MySQL", "Bootstrap", "HTML/CSS"],
-    features: [
-      { text: "CRUD Operations" },
-      { text: "Database Integration" },
-      { text: "User Authentication" },
-    ],
-    // image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
-    image: "",
-    github: "https://github.com/",
-    type: "web",
-  },
-  {
-    title: "Landing Page Project",
-    description: "Halaman landing modern untuk showcase produk dengan animasi scroll dan UI yang menarik.",
-    technologies: ["HTML", "CSS", "JavaScript", "GSAP"],
-    features: [
-      { text: "Scroll Animations" },
-      { text: "Mobile Responsive" },
-      { text: "Fast Loading" },
-    ],
-    // image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800",
-    image: "",
-    github: "https://github.com/",
+    demo: "https://www.astacloud1.my.id",
     type: "web",
   },
 ];
