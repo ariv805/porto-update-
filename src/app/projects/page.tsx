@@ -170,23 +170,26 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
         {project.type === "web" && (
           <div className="flex gap-3 pt-2">
             {project.github && (
-              <Button 
-                variant="outline" 
-                size="sm"
-                className="border-[#334e68] text-[#9fb3c8] hover:bg-[#1e3a5f] hover:text-white"
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center h-9 px-4 rounded-md border border-[#334e68] text-[#9fb3c8] hover:bg-[#1e3a5f] hover:text-white text-sm font-medium transition-colors"
               >
                 <Github className="h-4 w-4 mr-2" />
                 GitHub
-              </Button>
+              </a>
             )}
             {project.demo && (
-              <Button 
-                size="sm"
-                className="bg-blue-500 hover:bg-blue-600 text-white"
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center h-9 px-4 rounded-md bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium transition-colors"
               >
                 <ExternalLink className="h-4 w-4 mr-2" />
                 Demo
-              </Button>
+              </a>
             )}
           </div>
         )}
